@@ -14,7 +14,7 @@
     "lint": "eslint --config=.eslintrc ./",
     "dev": "coderich-dev"
   },
-  "dependencies": {
+  "devDependencies": {
     "@coderich/dev": "^0.0.17"
   }
 }
