@@ -1,0 +1,20 @@
+{
+  "name": "@coderich/quin-dev",
+  "main": "src/index.js",
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src",
+    "!__mocks__"
+  ],
+  "scripts": {
+    "test": "jest --config=jest.config.js",
+    "lint": "eslint --config=.eslintrc ./",
+    "dev": "coderich-dev"
+  },
+  "dependencies": {
+    "@coderich/dev": "^0.0.17"
+  }
+}
